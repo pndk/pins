@@ -1,0 +1,15 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start Plone": "source $HOME/workspace/bin/activate;RELOAD_PATH=$HOME/workspace/src/ plone fg",
+        "Activate Plone Dev Env": "source $HOME/workspace/bin/activate; cd $HOME/workspace"
+       
+  },
+
+// Preview button configuration
+  "preview": {
+        "Plone Site": "http://{{domain}}:8080/"
+  }
+}
